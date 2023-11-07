@@ -1,0 +1,86 @@
+/* Reset CSS pour réinitialiser les styles par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style de base pour le corps de la page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Style du formulaire */
+  form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  /* Style des champs du formulaire */
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  /* Style des libellés des champs */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style des champs de texte */
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  /* Style du bouton de soumission */
+  #btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Style du bouton de soumission au survol */
+  #btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour le conteneur de l'année */
+  #annee {
+    width: 100%;
+  }
+  
+  /* Style pour le conteneur de l'âge */
+  #age {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .error {
+    background: red; 
+  }
+  
+
+  

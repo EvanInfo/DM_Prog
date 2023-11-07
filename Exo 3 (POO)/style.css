@@ -1,0 +1,91 @@
+/* Style pour le formulaire */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Réduisez la marge intérieure */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px auto; /* Marge autour du titre */
+    width: 200px; /* Largeur de la boîte */
+    height: 50px; /* Hauteur de la boîte */
+    background: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.container {
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Centrer horizontalement */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.result {
+    width: 80%; /* Le résultat occupe toute la largeur disponible */
+    margin-top: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+.result h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    background-color: #0074d9;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.result p {
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 80%;
+}
