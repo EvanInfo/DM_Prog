@@ -1,2 +1,4 @@
 # DM_Prog
-fdsfdsf
+ Vous trouverez mes 4 exo pour le dm ¨Prog.
+
+#Exo 1
