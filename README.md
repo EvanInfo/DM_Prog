@@ -1,4 +1,6 @@
 # DM_Prog
  Vous trouverez mes 4 exo pour le dm ¨Prog.
 
-#Exo 1
+## Exo 1
+
+Pour 
